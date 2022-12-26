@@ -1,0 +1,19 @@
+
+article{
+    background-color: lighten($color1, 45%);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: calc($size/5);
+    font-size: calc($size/5);
+
+    .first_article{
+    padding: 0 calc($size/5) 0 calc($size/5);
+    border: 2px solid darken($color6, $amount: 70%);
+    margin-right: calc($size/4);
+    }
+    .second_article{
+        border: 2px solid darken($color6, $amount: 70%);
+        padding: 0 calc($size/5) 0 calc($size/5);
+    }
+}

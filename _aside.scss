@@ -1,0 +1,8 @@
+
+#aside_part{
+    background-color: mix($color3, $color6);
+    color: darken($color6, $amount: 70%);
+    font-size: calc($size/4);
+    width: 55%;
+    padding: 25px;
+}

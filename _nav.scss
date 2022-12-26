@@ -1,0 +1,26 @@
+nav{
+    width: 40%;
+   
+    font-family: $font-family;
+     .menu{
+        color: darken($color1, 35%);
+        font-size: calc($font-size + 5px);
+     text-align: center;
+    &:hover {
+            cursor: pointer;
+            font-weight: bolder;
+        }
+        
+     }
+ li {
+     background-color: lighten($color4, 40%);
+     margin: calc($size/6) 0 calc($size/6) 0;
+     font-size: $font-size;
+     width: $size;
+    
+     &:hover{
+        cursor: pointer;
+        
+     }
+ }
+}

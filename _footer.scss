@@ -1,0 +1,12 @@
+
+.rights{
+    display:flex;
+    color: lighten($color1, 45%);
+    background-color: darken($color6, $amount: 70%);
+    text-align: center;
+    height: 80px;
+    font-size: $font-size;
+    font-weight: bold;
+    justify-content: center;
+    align-items:center
+}

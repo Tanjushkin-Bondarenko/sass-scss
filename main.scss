@@ -1,0 +1,24 @@
+@import 'variables';
+@import 'mixin';
+@import 'header';
+@import 'aside';
+@import 'nav';
+@import 'article';
+@import 'footer';
+body{
+    margin: 0;
+    @include laptop;
+    @include tablet;
+    @include mobile;
+   
+    #container{
+        padding: 0 $size 0 $size;
+        width: $width;
+    }
+}
+#main_part{
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
